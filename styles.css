@@ -31,15 +31,16 @@ a.navlinks {
     margin: 5px;
 }
 
-a.navlinks:hover {
-    font-size: 1.1em;
-}
 a.navlinks:link {
     color: #F7F5FB;
 }
 
 a.navlinks:visited {
     color: #F7F5FB
+}
+
+a.navlinks:hover {
+    color:#747274;
 }
 
 h1 {
