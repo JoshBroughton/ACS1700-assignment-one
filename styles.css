@@ -1,0 +1,37 @@
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #011627;
+    color: #F7F5FB;
+    padding: 20px 0 25px 0;
+}
+
+body {
+    background-color: #747274;
+    color: #F7F5FB;
+    font-family: "Roboto Mono";
+    font-size: 18px;
+}
+
+a:link {
+    color: #48ACF0;
+}
+
+h1 {
+    font-size: 4em;
+    font-weight: bold;
+    margin: 0;
+}
+
+h2 {
+    font-size: 1em;
+    margin: 10px;
+}
+
+
