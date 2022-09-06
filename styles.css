@@ -4,17 +4,17 @@ body, html {
 }
 
 header {
+    min-height: 200px;
     display: flex;
     flex-direction: column;
     align-items: center;
     background-color: #011627;
     color: #F7F5FB;
-    padding: 20px 0 10px 0;
+    padding: 10px 0 10px 0;
 }
 
 nav > ul {
     list-style-type: none;
-    justify-self: flex-start;
     display: flex;
     padding: 0;
     margin: 0;
@@ -27,8 +27,12 @@ nav > ul > li {
 
 a.navlinks {
     text-decoration: none;
-    border: 5px solid white;
     padding: 5px;
+    margin: 5px;
+}
+
+a.navlinks:hover {
+    font-size: 1.1em;
 }
 a.navlinks:link {
     color: #F7F5FB;
@@ -36,6 +40,17 @@ a.navlinks:link {
 
 a.navlinks:visited {
     color: #F7F5FB
+}
+
+h1 {
+    font-size: 4em;
+    font-weight: bold;
+    margin: 0;
+}
+
+h3 {
+    font-size: 1em;
+    margin: 10px;
 }
 
 
@@ -46,23 +61,37 @@ body {
     font-size: 18px;
 }
 
-a:link {
-    color: #48ACF0;
+#resume {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
-a:visited {
-    color: #FEB95F;
-}
-
-h1 {
-    font-size: 4em;
-    font-weight: bold;
-    margin: 0;
+#skillh2 {
+    text-align: center;
 }
 
 h2 {
-    font-size: 1em;
-    margin: 10px;
+    font-size: 2em;
 }
 
+.bulletlist {
+    list-style-type: square;
+    line-height: 1.5;
+}
 
+footer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    background-color: #011627;
+    padding: 15px 0 10px 0;
+}
+
+.footerimg:hover {
+    transform: scale(1.2);
+}
