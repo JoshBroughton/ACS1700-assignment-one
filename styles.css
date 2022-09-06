@@ -12,6 +12,33 @@ header {
     padding: 20px 0 10px 0;
 }
 
+nav > ul {
+    list-style-type: none;
+    justify-self: flex-start;
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+
+nav > ul > li {
+    margin: 0 20px;
+    font-size: 1.5em;
+}
+
+a.navlinks {
+    text-decoration: none;
+    border: 5px solid white;
+    padding: 5px;
+}
+a.navlinks:link {
+    color: #F7F5FB;
+}
+
+a.navlinks:visited {
+    color: #F7F5FB
+}
+
+
 body {
     background-color: #747274;
     color: #F7F5FB;
@@ -21,6 +48,10 @@ body {
 
 a:link {
     color: #48ACF0;
+}
+
+a:visited {
+    color: #FEB95F;
 }
 
 h1 {
