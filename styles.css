@@ -69,17 +69,26 @@ body {
     justify-content: center;
 }
 
-#skillh2 {
-    text-align: center;
-}
-
 h2 {
     font-size: 2em;
+}
+
+.sections {
+    width: 30%;
+}
+
+.resumeh2 {
+    text-align: center;
 }
 
 .bulletlist {
     list-style-type: square;
     line-height: 1.5;
+    font-size: 1.2em;
+}
+
+#aboutMeContainer {
+    display: flex;
 }
 
 footer {
