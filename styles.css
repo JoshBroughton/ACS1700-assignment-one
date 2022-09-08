@@ -101,7 +101,7 @@ h2 {
 }
  h3 {
     font-size: 1.5em;
-    margin-top: 25px;
+    margin: 25px 0;
  }
 footer {
     width: 100%;
@@ -115,6 +115,10 @@ footer {
     height: 35px;
 }
 
+.media {
+    border: 10px solid #100063; 
+    border-radius: 5px;
+}
 .footerimg:hover {
     transform: scale(1.2);
 }
